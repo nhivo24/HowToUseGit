@@ -1,17 +1,22 @@
-# HOW TO USE GIT
+## Set Up
+    '''
+    B1: Tạo folder
+    B2: Vào folder và nhập git init
+    B3: git status kiểm tra trong folder có những file gì
+    B4: git remote add origin <link git> -> gán link cho origin
+    B5: git remote -v kiểm tra đúng chưa
+    '''
+## Lien ket
+    '''
+    B1: git add --all
+    B2: git status kiểm tra màu xanh thành công
+    B3: git commit -m “something” comment vào code đẩy lên
+    B4: git log kiểm tra commit
+    B5: gitk mở giao diện gitk kiểm tra
+    B6: git push origin master -> đẩy origin lên nhánh master
+    Git store tên file để quay lại
+    Git reset --hard <id của commit>
+    Push lên không được thêm -f phía sau
+    Git pull lấy toàn bộ code về
 
-'''
-B1: Tạo một dự án trong github
-B2: Tạo thư mục trong máy
-B3: Trong thư mục đó mở cmd lên
-B4: Sau đó trong cmd gõ: git init ->git status-> git remote add origin "link dự án trên git"
-B5: kiểm tra đường link đã đúng chưa: git remote –v
-B6: git add –all
-B7: gitk "kiểm tra mình đã commit thành công hay chưa?"
-B8:git push origin master "Đẩy bài lên"
-
-Quay lại sau khi mình bị sai: git restore index.html
-
-Quay lại: git reset –-hard “Đ/c trong file gitk”
-
-'''
+    '''
