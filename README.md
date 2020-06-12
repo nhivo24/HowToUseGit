@@ -6,7 +6,7 @@
     B4: git remote add origin <link git> -> gán link cho origin
     B5: git remote -v kiểm tra đúng chưa
     '''
-## Lien ket
+## Link
     '''
     B1: git add --all
     B2: git status kiểm tra màu xanh thành công
